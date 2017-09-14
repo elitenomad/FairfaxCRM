@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails FairfaxCRM: production" uuid="97e1bc23-0cb8-4e7b-9738-6b8ebc1476d7">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>FairfaxCRM</user-name>
+    </data-source>
+    <data-source name="Rails FairfaxCRM: development" uuid="33cda76e-6489-433b-97ac-1a9c3498a339">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails FairfaxCRM: test" uuid="6306bd63-0f61-411b-81ee-d4bc16f5a9fa">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+  </component>
+</project>
