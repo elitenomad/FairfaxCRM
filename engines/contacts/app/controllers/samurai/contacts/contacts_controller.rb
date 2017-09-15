@@ -21,7 +21,7 @@ module Samurai
 
       def create
         @contact = Contact.new(contact_params)
-        @contact.user = current_user
+        @contact.samurai_user = current_user
         if @contact.save
           # Add samurai to access the correct path
           redirect_to [samurai, @contact],
