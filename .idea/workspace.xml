@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a47e398-e119-4d63-98c0-a9e622720f9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/contacts/contacts_controller.rb" afterPath="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/contacts/contacts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engines/core/app/models/samurai/ability.rb" afterPath="$PROJECT_DIR$/engines/core/app/models/samurai/ability.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/admin/admin_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/admin/contacts_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/engines/contacts/app/overrides/add_admin_contacts_nav.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/engines/contacts/app/views/samurai/admin/contacts/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/engines/contacts/app/views/samurai/admin/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/engines/contacts/app/views/samurai/contacts/overrides/_admin_contacts_nav_link.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engines/contacts/config/routes.rb" afterPath="$PROJECT_DIR$/engines/contacts/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engines/core/app/views/samurai/admin/shared/_nav.html.erb" afterPath="$PROJECT_DIR$/engines/core/app/views/samurai/admin/shared/_nav.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -19,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contacts_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/engines/contacts/app/controllers/samurai/contacts/contacts_controller.rb">
+      <file leaf-file-name="_nav.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/engines/core/app/views/samurai/admin/shared/_nav.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -39,11 +46,13 @@
       <find>include_chain_clauses_in_custom_matcher_descriptions</find>
       <find>schema</find>
       <find>user_id</find>
+      <find>admin_contacts_nav_link</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/engines/contacts</dir>
       <dir>$PROJECT_DIR$/engines</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/engines/core</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -52,14 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/engines/core/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/engines/core/app/views/devise/registrations/edit.html.erb" />
-        <option value="$PROJECT_DIR$/engines/core/app/helpers/samurai/application_helper.rb" />
-        <option value="$PROJECT_DIR$/engines/core/db/migrate/20170914100948_add_admin_to_users.rb" />
-        <option value="$PROJECT_DIR$/engines/core/app/views/samurai/admin/index.html.erb" />
-        <option value="$PROJECT_DIR$/engines/core/app/controllers/samurai/admin/users_controller.rb" />
-        <option value="$PROJECT_DIR$/engines/core/app/views/samurai/admin/shared/_nav.html.erb" />
-        <option value="$PROJECT_DIR$/engines/core/app/models/samurai/user.rb" />
         <option value="$PROJECT_DIR$/engines/core/app/views/samurai/admin/users/index.html.erb" />
         <option value="$PROJECT_DIR$/engines/core/app/views/samurai/admin/admin/index.html.erb" />
         <option value="$PROJECT_DIR$/engines/core/config/routes.rb" />
@@ -84,13 +85,11 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/contacts/application_controller.rb" />
         <option value="$PROJECT_DIR$/engines/contacts/app/views/samurai/contacts/contacts/edit.html.erb" />
-        <option value="$PROJECT_DIR$/engines/contacts/config/routes.rb" />
         <option value="$PROJECT_DIR$/engines/contacts/app/views/samurai/contacts/contacts/new.html.erb" />
         <option value="$PROJECT_DIR$/engines/contacts/app/views/samurai/contacts/contacts/_form.html.erb" />
         <option value="$PROJECT_DIR$/engines/contacts/samurai_contacts.gemspec" />
         <option value="$PROJECT_DIR$/engines/contacts/lib/samurai/contacts.rb" />
         <option value="$PROJECT_DIR$/engines/core/app/views/layouts/samurai/application.html.erb" />
-        <option value="$PROJECT_DIR$/engines/contacts/app/overrides/add_contacts_link_to_nav.rb" />
         <option value="$PROJECT_DIR$/engines/contacts/app/overrides/_contacts_link.html.erb" />
         <option value="$PROJECT_DIR$/engines/contacts/app/models/samurai/contacts/contact.rb" />
         <option value="$PROJECT_DIR$/engines/contacts/db/migrate/20170915031437_create_samurai_contacts_contacts.rb" />
@@ -103,6 +102,16 @@
         <option value="$PROJECT_DIR$/engines/contacts/app/decorators/controllers/dashboard_controller_decorator.rb" />
         <option value="$PROJECT_DIR$/engines/contacts/app/views/samurai/contacts/overrides/_contacts_list.html.erb" />
         <option value="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/contacts/contacts_controller.rb" />
+        <option value="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/admin_controller.rb" />
+        <option value="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/admin/admin_controller.rb" />
+        <option value="$PROJECT_DIR$/engines/contacts/config/routes.rb" />
+        <option value="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/admin/contacts_controller.rb" />
+        <option value="$PROJECT_DIR$/engines/contacts/app/views/samurai/admin/contacts/index.html.erb" />
+        <option value="$PROJECT_DIR$/engines/contacts/app/views/samurai/contacts/overrides/add_admin_contacts_link_to_nav.html.erb" />
+        <option value="$PROJECT_DIR$/engines/core/app/assets/javascripts/samurai/application.js" />
+        <option value="$PROJECT_DIR$/engines/contacts/app/overrides/add_contacts_link_to_nav.rb" />
+        <option value="$PROJECT_DIR$/engines/core/app/views/samurai/admin/shared/_nav.html.erb" />
+        <option value="$PROJECT_DIR$/engines/contacts/app/overrides/add_admin_contacts_nav.rb" />
       </list>
     </option>
   </component>
@@ -165,41 +174,6 @@
               <item name="engines" type="462c0819:PsiDirectoryNode" />
               <item name="contacts" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FairfaxCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FairfaxCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="engines" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="samurai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FairfaxCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FairfaxCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="engines" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="samurai" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FairfaxCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FairfaxCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="engines" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="overrides" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FairfaxCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FairfaxCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="engines" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,30 +193,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="samurai" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FairfaxCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FairfaxCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="engines" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="samurai" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="overrides" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FairfaxCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FairfaxCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="engines" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FairfaxCRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FairfaxCRM" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,11 +209,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/engines/contacts/app/controllers/samurai/admin" />
       <recent name="$PROJECT_DIR$/engines/contacts/app/views/samurai/contacts/overrides" />
       <recent name="$PROJECT_DIR$/engines/core/app/models/samurai" />
       <recent name="$PROJECT_DIR$/engines/core/app/views/samurai/admin/admin" />
       <recent name="$PROJECT_DIR$/engines/core/app/views/layouts" />
-      <recent name="$PROJECT_DIR$/engines/core/app/controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,7 +347,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20365000" />
+    <option name="totallyTimeSpent" value="23805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="23" width="1384" height="877" extended-state="6" />
@@ -444,147 +395,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/engines/core/app/controllers/samurai/dashboard_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/app/controllers/samurai/admin/admin_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/app/controllers/samurai/admin/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/app/views/samurai/admin/shared/_nav.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <marker date="1505478084000" expanded="true" signature="364:456" ph="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/.rspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/spec/models/samurai/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/spec/controllers/samurai/dashboard_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="28" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/spec/rails_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/test/dummy/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/config/initializers/devise.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="247" column="37" lean-forward="false" selection-start-line="247" selection-start-column="37" selection-end-line="247" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/spec/support/devise.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/spec/support/controller_macros.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/samurai_core.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/contacts/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="58" column="47" lean-forward="false" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/app/controllers/samurai/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -593,14 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/contacts/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,14 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engines/core/app/views/layouts/samurai/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,14 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engines/contacts/app/overrides/add_contacts_link_to_nav.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engines/core/app/models/samurai/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -681,6 +471,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engines/contacts/app/overrides/add_contacts_list_to_dashboard.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engines/contacts/app/views/samurai/contacts/contacts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -806,10 +590,198 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/app/controllers/samurai/admin/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/app/controllers/samurai/dashboard_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/app/controllers/samurai/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/contacts/app/controllers/samurai/admin/admin_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/contacts/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/engines/contacts/app/controllers/samurai/contacts/contacts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/app/views/samurai/admin/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/contacts/app/views/samurai/contacts/overrides/_admin_contacts_nav_link.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/jquery-rails-4.3.1/vendor/assets/javascripts/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/app/assets/javascripts/samurai/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/samurai_core.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/contacts/app/views/samurai/admin/contacts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/contacts/app/controllers/samurai/admin/contacts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/contacts/app/overrides/add_contacts_link_to_nav.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="66" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/app/controllers/samurai/admin/admin_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/app/views/samurai/admin/admin/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/app/views/layouts/samurai/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/contacts/app/overrides/add_contacts_list_to_dashboard.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/contacts/app/views/samurai/admin/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/contacts/app/overrides/add_admin_contacts_nav.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engines/core/app/views/samurai/admin/shared/_nav.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
