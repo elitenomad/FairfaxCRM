@@ -57,3 +57,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'samurai_core', path: 'engines/core'
 gem 'samurai_contacts', path: 'engines/contacts'
+gem 'samurai_tasks', path: 'engines/tasks'
